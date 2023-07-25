@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier, monospace;
+}
+
+body {
+     background-color:#303030;
+    color: white;
+}
+
+/* Navbar section  */
+.prim-color {
+    background-image:  linear-gradient(beige, red);
+}
+
+a span {
+    font-family: Courier, monospace;
+    font-size: 2.5rem;
+    margin-top:5px;
+    color:black;
+}
+
+button span i {
+    color: #373739;
+    font-size: 2rem;
+}
+
+/* offcanvas section and card mainhead  */
+h5 {
+    font-family: Courier, monospace;
+    font-size: 1.5rem;
+}
+
+/* mainhead Section  */
+#mainhead {
+    margin-top: 4rem;
+}
+
+/* Header Serach bar  */
+#searchlist {
+    max-width: 600px;
+}
+
+#searchlist input {
+    height: 2.8rem;
+    padding: 0 20px !important;
+    font-size: 1.2rem;
+}
+
+/* Card section  */
+#card {
+     background-image:  linear-gradient(beige, red);
+    padding: 10px;
+    color: black;
+    font-weight:bold;
+}
+
+#card img {
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+
+
+/* meal details container */
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+   background-image:  linear-gradient(beige, red);
+   color:black;
+   font-weight: bold;
+}
+#meal-header{
+    width: 70%;
+    margin: auto;
+    
+}
+#meal-thumbnail img{
+    height: 250px;
+    width: 250px;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+
+/* favourites offcanvus */
+#favourites{
+    background-color:#262222 ;
+}
